@@ -1,0 +1,30 @@
+{
+  "name": "webapp",
+  "version": "0.0.1",
+  "description": "webapp",
+  "productName": "webapp",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "conx",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.10",
+    "axios": "^1.3.2",
+    "eslint-plugin-quasar": "^1.1.0",
+    "quasar": "^1.22.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.3.3"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
